@@ -1,0 +1,3 @@
+description: Like a vctor space, but scalars come from a ring instead of field.
+attributes:
+methods:
