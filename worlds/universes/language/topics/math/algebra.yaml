@@ -4,7 +4,7 @@ metadata:
   language: en
   
 description: "Algebra is a branch of mathematics that uses symbols (like letters) and numbers to find unknown values and understand relationships between quantities."
-application:
+applications:
   - "Physics calculations (motion, force)"
   - "Finance (interest, profit, loss)"
   - "Engineering and computer science"
