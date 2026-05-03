@@ -1,5 +1,35 @@
+metadata:
+  category: Mathematics
+  level: Beginner
+  language: en
+  
 description: "Algebra is a branch of mathematics that uses symbols (like letters) and numbers to find unknown values and understand relationships between quantities."
+application:
+  - "Physics calculations (motion, force)"
+  - "Finance (interest, profit, loss)"
+  - "Engineering and computer science"
+  - "Everyday problem solving"
 
+topics:
+  - Linear Equations
+  - Quadratic Equations
+  - Polynomials
+  - Inequalities
+  - Systems of Equations
+
+concepts:
+  - variable: "A symbol (like x or y) representing an unknown value"
+  - constant: "A fixed number"
+  - coefficient: "A number multiplied by a variable (e.g., 2 in 2x)"
+  - expression: "A combination of numbers, variables, and operations"
+  - equation: "A statement that two expressions are equal"
+
+examples:
+  - expression: "x + 5 = 12"
+    solution: "x = 7"
+  - expression: "2x = 10"
+    solution: "x = 5"
+    
 attributes:
   - name: Commutative Property
     description: Changing the order doesn’t change the result.
