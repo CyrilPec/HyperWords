@@ -1,3 +1,89 @@
-description: The branch of mathematics focusing on continuous change, utilizing limits, derivatives, and integrals to study variable quantities, rates of change, and areas under curves.
+metadata:
+  category: Mathematics
+  level: Beginner
+  language: en
+
+description: "Calculus is a branch of mathematics that studies change and motion, focusing on how quantities vary and accumulate."
+
+applications:
+  - "Physics (velocity, acceleration, motion)"
+  - "Engineering (optimization, system modeling)"
+  - "Economics (cost, revenue, marginal analysis)"
+  - "Biology (population growth, rates of change)"
+  - "Computer graphics and machine learning"
+
+topics:
+  - Limits
+  - Derivatives
+  - Integrals
+  - Differential Equations
+  - Multivariable Calculus
+
+concepts:
+  - limit: "The value a function approaches as the input approaches a certain point"
+  - derivative: "The rate of change of a function with respect to a variable"
+  - integral: "The accumulation of quantities, such as area under a curve"
+  - function: "A relation that assigns each input exactly one output"
+  - continuity: "A function without breaks, jumps, or holes"
+
+examples:
+  - expression: "f(x) = x²"
+    derivative: "f'(x) = 2x"
+  - expression: "∫ x dx"
+    solution: "x²/2 + C"
+  - expression: "lim (x→2) (x²)"
+    solution: "4"
+
 attributes:
+  - name: Linearity
+    description: Derivatives and integrals can be split across sums.
+    examples:
+      - "d/dx (a + b) = d/dx(a) + d/dx(b)"
+      - "∫(a + b) dx = ∫a dx + ∫b dx"
+
+  - name: Product Rule
+    description: Used to differentiate the product of two functions.
+    examples:
+      - "d/dx (uv) = u'v + uv'"
+
+  - name: Quotient Rule
+    description: Used to differentiate a quotient of two functions.
+    examples:
+      - "d/dx (u/v) = (u'v - uv') / v²"
+
+  - name: Chain Rule
+    description: Used to differentiate composite functions.
+    examples:
+      - "d/dx f(g(x)) = f'(g(x)) · g'(x)"
+
+  - name: Fundamental Theorem of Calculus
+    description: Connects differentiation and integration.
+    examples:
+      - "If F'(x) = f(x), then ∫f(x)dx = F(x) + C"
+
 methods:
+  - name: Differentiation
+    description: Finding the derivative of a function to determine its rate of change.
+    example: "d/dx (x²) = 2x"
+
+  - name: Integration
+    description: Finding the integral of a function to determine total accumulation.
+    example: "∫x dx = x²/2 + C"
+
+  - name: Substitution Method
+    description: Simplifies integrals by substituting variables.
+    example: "Let u = x², then ∫2x dx = ∫du"
+
+  - name: Integration by Parts
+    description: Used for products of functions in integration.
+    example: "∫uv dx = u∫v dx - ∫(u'∫v dx)"
+
+  - name: Limit Evaluation
+    description: Used to determine behavior of functions near a point.
+    example: "lim (x→0) (sin x / x) = 1"
+
+  - name: Graphical Interpretation
+    description: Understanding functions through slopes and areas on graphs.
+
+  - name: Numerical Methods
+    description: Approximating values when exact solutions are difficult.
