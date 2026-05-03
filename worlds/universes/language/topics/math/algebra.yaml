@@ -1,65 +1,62 @@
 description: "Algebra is a branch of mathematics that uses symbols (like letters) and numbers to find unknown values and understand relationships between quantities."
+
 attributes:
-   1. Commutative Property
-  Changing the order doesn’t change the result.
-  
-  Addition: a + b = b + a
-  Multiplication: a × b = b × a
-  
-  2. Associative Property
-  Changing the grouping doesn’t change the result.
-  
-  (a + b) + c = a + (b + c)
-  (a × b) × c = a × (b × c)
-  
-  3. Distributive Property
-  Multiplication distributes over addition/subtraction.
-  
-  a(b + c) = ab + ac
-  
-  4. Identity Property
-  There are special numbers that don’t change a value.
-  
-  Additive identity: a + 0 = a
-  Multiplicative identity: a × 1 = a
-  
-  5. Inverse Property
-  Every number has an opposite that cancels it out.
-  
-  Additive inverse: a + (−a) = 0
-  Multiplicative inverse: a × (1/a) = 1 (for a ≠ 0)
-  
-  6. Equality Property
-  If two expressions are equal, you can perform the same operation on both sides.
-  
-  If a = b, then a + c = b + c
+  - name: Commutative Property
+    description: Changing the order doesn’t change the result.
+    examples:
+      - "a + b = b + a"
+      - "a × b = b × a"
+
+  - name: Associative Property
+    description: Changing the grouping doesn’t change the result.
+    examples:
+      - "(a + b) + c = a + (b + c)"
+      - "(a × b) × c = a × (b × c)"
+
+  - name: Distributive Property
+    description: Multiplication distributes over addition or subtraction.
+    examples:
+      - "a(b + c) = ab + ac"
+
+  - name: Identity Property
+    description: Special numbers that do not change a value.
+    examples:
+      - "a + 0 = a"
+      - "a × 1 = a"
+
+  - name: Inverse Property
+    description: Every number has an opposite that cancels it out.
+    examples:
+      - "a + (−a) = 0"
+      - "a × (1/a) = 1 (a ≠ 0)"
+
+  - name: Equality Property
+    description: If two expressions are equal, the same operation can be applied to both.
+    examples:
+      - "If a = b, then a + c = b + c"
   
 methods:
-  1. Substitution Method
-  You replace a variable with its value or another expression.
-  
-  Example: If x = 3, then in 2x + 1 → 2(3) + 1 = 7
-  
-  2. Elimination Method
-  Used mostly with systems of equations. You add or subtract equations to eliminate one variable.
-  
-  3. Balancing Method (Doing the same to both sides)
-  Whatever you do to one side of an equation, you do to the other to keep it equal.
-  
-  Example: x + 5 = 10 → subtract 5 from both sides → x = 5
-  
-  4. Factoring Method
-  You break expressions into simpler parts (factors).
-  
-  Example: x² + 5x = x(x + 5)
-  
-  5. Expansion Method
-  Opposite of factoring—multiply out brackets.
-  
-  Example: (x + 2)(x + 3) = x² + 5x + 6
-  
-  6. Graphical Method
-  You draw graphs to find solutions (where lines or curves intersect).
-  
-  7. Trial and Error
-  You test possible values until you find the correct one (useful for simple problems).
+  - name: Substitution Method
+    description: You replace a variable with its value or another expression.
+    example: "If x = 3, then in 2x + 1 → 2(3) + 1 = 7"
+
+  - name: Elimination Method
+    description: Used mostly with systems of equations. You add or subtract equations to eliminate one variable.
+
+  - name: Balancing Method
+    description: Whatever you do to one side of an equation, you do to the other to keep it equal.
+    example: "x + 5 = 10 → subtract 5 from both sides → x = 5"
+
+  - name: Factoring Method
+    description: You break expressions into simpler parts (factors).
+    example: "x² + 5x = x(x + 5)"
+
+  - name: Expansion Method
+    description: Opposite of factoring—multiply out brackets.
+    example: "(x + 2)(x + 3) = x² + 5x + 6"
+
+  - name: Graphical Method
+    description: You draw graphs to find solutions (where lines or curves intersect).
+
+  - name: Trial and Error
+    description: You test possible values until you find the correct one.
