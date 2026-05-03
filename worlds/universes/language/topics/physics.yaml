@@ -1,3 +1,98 @@
-description: The fundamental science studying matter, energy, and their interactions, covering everything from subatomic particles to the universe's strcture.
+metadata:
+  category: Science
+  level: Beginner
+  language: en
+
+description: "Physics is the branch of science that studies matter, energy, motion, and the fundamental forces of nature."
+
+applications:
+  - "Engineering (mechanics, electronics, construction)"
+  - "Space exploration and astronomy"
+  - "Energy production and technology"
+  - "Medical imaging and diagnostics"
+  - "Everyday phenomena (motion, heat, light)"
+
+topics:
+  - name: Mechanics
+    level: Beginner
+  - name: Thermodynamics
+    level: Beginner
+  - name: Electromagnetism
+    level: Intermediate
+  - name: Waves and Optics
+    level: Intermediate
+  - name: Modern Physics
+    level: Advanced
+
+concepts:
+  - force: "An interaction that changes the motion of an object"
+  - mass: "The amount of matter in an object"
+  - energy: "The ability to do work"
+  - velocity: "Speed in a specific direction"
+  - acceleration: "Rate of change of velocity"
+  - work: "Force applied over a distance"
+  - power: "Rate at which work is done"
+
+examples:
+  - expression: "F = m × a"
+    explanation: "Force equals mass times acceleration"
+  - expression: "v = d / t"
+    explanation: "Velocity equals distance divided by time"
+  - expression: "W = F × d"
+    explanation: "Work equals force times distance"
+
 attributes:
+  - name: Newton's First Law
+    description: An object remains at rest or in uniform motion unless acted on by a force.
+  - name: Newton's Second Law
+    description: Force equals mass times acceleration.
+    examples:
+      - "F = m × a"
+  - name: Newton's Third Law
+    description: For every action, there is an equal and opposite reaction.
+  - name: Conservation of Energy
+    description: Energy cannot be created or destroyed, only transformed.
+  - name: Conservation of Momentum
+    description: Total momentum remains constant in an isolated system.
+
 methods:
+  - name: Problem Decomposition
+    description: Break complex problems into smaller parts (forces, motion, energy).
+
+  - name: Free Body Diagram
+    description: Draw forces acting on an object to analyze motion.
+
+  - name: Equation Selection
+    description: Choose the correct formula based on known and unknown variables.
+
+  - name: Unit Analysis
+    description: Check consistency of units to verify correctness.
+
+  - name: Graphical Analysis
+    description: Use graphs (e.g., velocity-time) to interpret motion.
+
+  - name: Approximation
+    description: Simplify problems by ignoring negligible factors.
+
+formulas:
+  - name: Newton's Second Law
+    expression: "F = m × a"
+
+  - name: Kinematic Equation
+    expression: "v = u + at"
+
+  - name: Work Formula
+    expression: "W = F × d"
+
+  - name: Kinetic Energy
+    expression: "KE = 1/2 mv²"
+
+  - name: Potential Energy
+    expression: "PE = mgh"
+
+units:
+  - force: "Newton (N)"
+  - mass: "kilogram (kg)"
+  - time: "second (s)"
+  - energy: "joule (J)"
+  - power: "watt (W)"
