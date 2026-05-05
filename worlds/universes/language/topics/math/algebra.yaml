@@ -12,11 +12,15 @@ applications:
   - "Everyday problem solving"
 
 topics:
-  - Linear Equations
-  - Quadratic Equations
-  - Polynomials
-  - Inequalities
-  - Systems of Equations
+  - Abstract Algebra
+  - Boolean Algebra
+  - Discrete Algebra
+    - Linear Equations
+    - Quadratic Equations
+    - Polynomials
+    - Inequalities
+    - Systems of Equations
+  - Lie Algebra
 
 concepts:
   - variable: "A symbol (like x or y) representing an unknown value"
