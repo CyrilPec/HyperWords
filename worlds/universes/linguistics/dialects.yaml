@@ -14,16 +14,11 @@ applications:
 
 topics:
   - name: Phonetics
-    level: Beginner
   - name: Vocabulary
-    level: Beginner
   - name: Grammar
-    level: Intermediate
   - name: Accent
-    level: Beginner
   - name: Sociolinguistics
-    level: Advanced
-
+   
 concepts:
   - dialect: "A regional or social variety of a language"
   - accent: "The way words are pronounced"
